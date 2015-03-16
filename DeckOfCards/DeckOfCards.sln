@@ -10,6 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F9C4E
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupPicker", "..\..\GroupPicker\GroupPicker\GroupPicker.csproj", "{44E1F3B5-31DB-42E6-92EE-AA1F09913EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV-RealEstate", "..\..\CSV-RealEstate\CSV-RealEstate\CSV-RealEstate.csproj", "{6C578CDA-ECC9-47CE-8F6F-030835EDD3A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget (2)", ".nuget (2)", "{2DA808B4-EDC4-4050-B2D8-31BBB2AC6F7D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\CSV-RealEstate\CSV-RealEstate\.nuget\packages.config = ..\..\CSV-RealEstate\CSV-RealEstate\.nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +29,14 @@ Global
 		{5A3F6B42-5660-473D-A6B6-DC6E75E07F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A3F6B42-5660-473D-A6B6-DC6E75E07F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A3F6B42-5660-473D-A6B6-DC6E75E07F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E1F3B5-31DB-42E6-92EE-AA1F09913EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E1F3B5-31DB-42E6-92EE-AA1F09913EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E1F3B5-31DB-42E6-92EE-AA1F09913EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E1F3B5-31DB-42E6-92EE-AA1F09913EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C578CDA-ECC9-47CE-8F6F-030835EDD3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C578CDA-ECC9-47CE-8F6F-030835EDD3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C578CDA-ECC9-47CE-8F6F-030835EDD3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C578CDA-ECC9-47CE-8F6F-030835EDD3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
